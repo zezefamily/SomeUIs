@@ -14,6 +14,8 @@
 		E47276EF1B57A8A700CAA102 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47276EE1B57A8A700CAA102 /* Images.xcassets */; };
 		E47276F21B57A8A700CAA102 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E47276F01B57A8A700CAA102 /* LaunchScreen.xib */; };
 		E47276FE1B57A8A700CAA102 /* SomeUIsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E47276FD1B57A8A700CAA102 /* SomeUIsTests.m */; };
+		E472770A1B57BB3D00CAA102 /* JEProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E47277091B57BB3D00CAA102 /* JEProgressView.m */; };
+		E472770E1B57BF4D00CAA102 /* RadialView.m in Sources */ = {isa = PBXBuildFile; fileRef = E472770D1B57BF4D00CAA102 /* RadialView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		E47276F71B57A8A700CAA102 /* SomeUIsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomeUIsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47276FC1B57A8A700CAA102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47276FD1B57A8A700CAA102 /* SomeUIsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeUIsTests.m; sourceTree = "<group>"; };
+		E47277081B57BB3D00CAA102 /* JEProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEProgressView.h; sourceTree = "<group>"; };
+		E47277091B57BB3D00CAA102 /* JEProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JEProgressView.m; sourceTree = "<group>"; };
+		E472770C1B57BF4D00CAA102 /* RadialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialView.h; sourceTree = "<group>"; };
+		E472770D1B57BF4D00CAA102 /* RadialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		E47276E01B57A8A700CAA102 /* SomeUIs */ = {
 			isa = PBXGroup;
 			children = (
+				E472770B1B57BF3800CAA102 /* RadialView */,
+				E47277071B57BB1700CAA102 /* JEProgressView */,
 				E47276E51B57A8A700CAA102 /* AppDelegate.h */,
 				E47276E61B57A8A700CAA102 /* AppDelegate.m */,
 				E47276E81B57A8A700CAA102 /* ViewController.h */,
@@ -117,6 +125,24 @@
 				E47276FC1B57A8A700CAA102 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E47277071B57BB1700CAA102 /* JEProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				E47277081B57BB3D00CAA102 /* JEProgressView.h */,
+				E47277091B57BB3D00CAA102 /* JEProgressView.m */,
+			);
+			name = JEProgressView;
+			sourceTree = "<group>";
+		};
+		E472770B1B57BF3800CAA102 /* RadialView */ = {
+			isa = PBXGroup;
+			children = (
+				E472770C1B57BF4D00CAA102 /* RadialView.h */,
+				E472770D1B57BF4D00CAA102 /* RadialView.m */,
+			);
+			name = RadialView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +247,8 @@
 			files = (
 				E47276EA1B57A8A700CAA102 /* ViewController.m in Sources */,
 				E47276E71B57A8A700CAA102 /* AppDelegate.m in Sources */,
+				E472770A1B57BB3D00CAA102 /* JEProgressView.m in Sources */,
+				E472770E1B57BF4D00CAA102 /* RadialView.m in Sources */,
 				E47276E41B57A8A700CAA102 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
